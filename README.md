@@ -22,7 +22,7 @@ npx appliance-model-number-decoder WRF555SDFZ
 }
 ```
 
-See this decoder in action on [OEM Part Hub's model search](https://oemparthub.com/search).
+See this decoder in action on [OEM Part Hub's parts lookup](https://oemparthub.com/parts-lookup).
 
 ## Install
 
@@ -139,7 +139,7 @@ isSkuLikeQuery("whirlpool pump")   // false (search query)
 
 ## Who Uses This
 
-This library powers the parts lookup and search systems at [oemparthub.com](https://oemparthub.com). If you need to look up actual parts for an appliance model, try the [model search](https://oemparthub.com/search) on OEM Part Hub.
+This library powers the parts lookup and search systems at [oemparthub.com](https://oemparthub.com). If you need to look up actual parts for an appliance model, try the [parts lookup](https://oemparthub.com/parts-lookup) on OEM Part Hub.
 
 ## License
 
