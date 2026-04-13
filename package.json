@@ -1,0 +1,60 @@
+{
+  "name": "appliance-model-number-decoder",
+  "version": "1.0.0",
+  "description": "Decode appliance model numbers (Whirlpool, GE, LG, Samsung) into brand, type, and configuration. 170+ model patterns, 72 part type categories, 27 appliance types.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "appliance-model-number-decoder": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "appliance",
+    "model-number",
+    "model-number-decoder",
+    "part-number",
+    "decoder",
+    "whirlpool",
+    "ge",
+    "lg",
+    "samsung",
+    "bosch",
+    "frigidaire",
+    "kitchenaid",
+    "maytag",
+    "repair",
+    "parts",
+    "sku",
+    "appliance-repair"
+  ],
+  "author": "nnk170591",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nnk170591/appliance-model-number-decoder"
+  },
+  "homepage": "https://oemparthub.com",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.0.0"
+  }
+}
